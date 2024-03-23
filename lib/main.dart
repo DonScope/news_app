@@ -72,6 +72,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       crossAxisAlignment: CrossAxisAlignment.end,
                       children: [
                         Text(newsList[index].title),
+                        Text(newsList[index].description),
                         SizedBox(
                           height: 5,
                         ),
